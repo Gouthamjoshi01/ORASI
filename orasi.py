@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 ┌──────────────────────────────────────────────────────────────────────────┐
-│  MIT License (C) 2026 Goutham Joshi. All Rights Reserved.               │
+│  MIT License (C) 2026 Goutham Joshi. All Rights Reserved.                │
 └──────────────────────────────────────────────────────────────────────────┘
 """
 import sys
@@ -76,7 +76,17 @@ def render_header():
 def mask_stream_text(text):
     if not text:
         return ""
-    return text.replace("Nmap", "Orasi").replace("nmap", "orasi")
+    # Core Rebranding Rule mappings
+    text = text.replace("Nmap", "Orasi").replace("nmap", "orasi")
+    
+    # Advanced RegEx cleanups to mask signature raw engine lines
+    text = re.sub(r'Orasi 7\.99 \( https://orasi\.org \)', 'Orasi Core Engine v1.0 // Shadow Stream Operational', text)
+    text = re.sub(r'orasi 7\.99 \( https://orasi\.org \)', 'Orasi Core Engine v1.0 // Shadow Stream Operational', text)
+    
+    # Fully dynamic global translation mapping to switch case-insensitive manual pages to "MAIN PAGE"
+    text = text.replace("MAN PAGE", "MAIN PAGE").replace("man page", "main page")
+    
+    return text
 
 def parse_and_display_output(raw_output, target_ip):
     cleaned = mask_stream_text(raw_output)
