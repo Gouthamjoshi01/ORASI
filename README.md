@@ -1,4 +1,4 @@
-# 🌸 Orasi Auditing Platform v1.1 ⚔️
+# 🌸 ORASI v1.1 ⚔️
 An ultra-modern, high-concurrency network reconnaissance engine and real-time CVE mapping utility. Engineered to combine robust low-level socket handshakes with an elite, minimalist terminal presentation interface.
 
 ## 🛠️ System Architecture & Engineering
