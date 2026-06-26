@@ -14,7 +14,8 @@ The terminal interface has been heavily optimized for scannability and professio
 * **The "Kyoto Minimalist" Matrix:** Open ports are rendered using clean, line-free layout spacing on a vertical pipeline axis (`│`) with sharp micro-indicators (`✦`), directly matching Nmap's scannability while adding a unique custom aesthetic.
 
 ## 🚀 Live Visuals & Interface Profile
-<img width="1920" height="771" alt="Screenshot_2026-06-26_15_10_13" src="https://github.com/user-attachments/assets/f2c6ff2e-f637-4778-96e3-f07a4fd279ea" />
+<img width="1920" height="771" alt="Screenshot_2026-06-26_15_10_13" src="https://github.com/user-attachments/assets/74191145-8abb-48a0-ad60-577e0e196706" />
+
 
 ## 📊 Feature Metrics & Hardening
 * **Network Jitter Resilience:** Calibrated with a dedicated 2.5–3.0 second socket timeout mechanism, specifically optimized to reliably pass target connection streams over unstable or high-latency OpenVPN routing layers.
