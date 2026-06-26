@@ -14,7 +14,8 @@ The terminal interface has been heavily optimized for scannability and professio
 * **The "Kyoto Minimalist" Matrix:** Open ports are rendered using clean, line-free layout spacing on a vertical pipeline axis (`│`) with sharp micro-indicators (`✦`), directly matching Nmap's scannability while adding a unique custom aesthetic.
 
 ## 🚀 Live Visuals & Interface Profile
-<img width="1895" height="768" alt="Screenshot_2026-06-26_15_10_13" src="https://github.com/user-attachments/assets/c9f43bec-4c0e-44e1-b039-b3120bc4f01b" />
+<img width="1895" height="753" alt="Screenshot_2026-06-26_15_10_13" src="https://github.com/user-attachments/assets/c9c46b22-076b-49d6-a549-77e71905c793" />
+
 
 
 
