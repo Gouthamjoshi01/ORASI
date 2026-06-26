@@ -26,7 +26,7 @@ Ensure you execute infrastructure scanning tasks with elevated context (`sudo`) 
 
 ```bash
 # Trigger a fast, stealth reconnaissance sweep against a targeted infrastructure asset
-sudo python3 orasi.py -sS -O --min-rate 500 10.49.169.61
+sudo python3 orasi.py -sS -O --min-rate 500 10.49.144.202
 
 # Execute a network scan utilizing random decoy targets and custom data length padding
-sudo python3 orasi.py -D RND:5 --data-length 25 10.49.169.61
+sudo python3 orasi.py -D RND:5 --data-length 25 10.49.144.202
