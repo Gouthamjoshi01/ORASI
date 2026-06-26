@@ -16,9 +16,6 @@ The terminal interface has been heavily optimized for scannability and professio
 ## 🚀 Live Visuals & Interface Profile
 <img width="1895" height="753" alt="Screenshot_2026-06-26_15_10_13" src="https://github.com/user-attachments/assets/c9c46b22-076b-49d6-a549-77e71905c793" />
 
-
-
-
 ## 📊 Feature Metrics & Hardening
 * **Network Jitter Resilience:** Calibrated with a dedicated 2.5–3.0 second socket timeout mechanism, specifically optimized to reliably pass target connection streams over unstable or high-latency OpenVPN routing layers.
 * **Automated Parameter Parsing:** Includes an integrated operational dashboard accessible via native CLI syntax flags (`-h` / `--help`).
